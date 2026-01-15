@@ -1,0 +1,31 @@
+body{background-color: #001f3f;}
+.card{
+background-color: rgb(121, 200, 236);}
+.reveal-card{overflow:hidden}
+.reveal-card::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+    opacity: 0.6;
+    transition: opacity 0.3s;
+}
+.reveal-card:hover::after {
+    opacity: 0.9;
+}
+.reveal-card .card-img-overlay {
+    z-index: 2; 
+}
+.reveal-card .description {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+.reveal-card:hover .description {
+    max-height: 100px;
+    opacity: 1;
+}
+#navbar{
+background-color:rgb(74, 131, 187)
+}

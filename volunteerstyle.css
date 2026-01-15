@@ -1,0 +1,8 @@
+body{ background-color:#001f3f ;}
+.table-blue {
+  --bs-table-bg: #88b2e9; /* Light pink background */
+  --bs-table-color: #000000;  /* Text color */
+}
+#navbar{
+background-color:rgb(74, 131, 187)
+}

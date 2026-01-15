@@ -1,0 +1,158 @@
+# Ocean Watchers - Website Project Requirements
+
+## 🌊 Project Overview
+
+**Ocean Watchers** is a non-profit organization dedicated to marine life conservation and achieving plastic-free oceans. We need a front-end developer to build a responsive, immersive, and visually striking website that reflects the depth and fluidity of the ocean.
+
+**Goal:** Create a static website using only HTML5 and CSS3 that informs visitors about our mission, showcases marine life, and encourages community involvement.
+
+---
+
+## 🛠 Tech Stack
+
+- **HTML5** (Semantic structure)
+- **CSS3** (Styling, Flexbox, Grid, Animations)
+- **No JavaScript** required for this phase (CSS-only interactivity preferred).
+
+---
+
+## 🎨 Design & Aesthetics
+
+The site must feel "deep," fluid, and modern. Avoid static, blocky designs.
+
+### Color Palette
+
+- **Primary (Backgrounds):** Deep Ocean Blue `#001f3f`
+- **Secondary (Buttons/Highlights):** Teal/Cyan `#39CCCC`
+- **Accent (Urgent CTAs):** Coral `#FF7F50`
+- **Text Color:** Off-white/Light Gray `#F0F8FF` (High contrast against dark backgrounds)
+
+### Typography
+
+- **Headings:** Bold and modern (e.g., _Montserrat_ or _Oswald_).
+- **Body Text:** Clean and rounded (e.g., _Quicksand_ or _Nunito_).
+
+### Visual Style
+
+- **Gradients:** Use `linear-gradient` for buttons and footers to simulate water depth.
+- **Transparency:** Use `rgba` colors for content containers so the background is faintly visible behind the text.
+- **Transitions:** All interactive elements (links, buttons) must have smooth states (`transition: all 0.3s ease`).
+
+---
+
+## 📄 Core Pages & Content Structure
+
+### 1. Home Page (`index.html`)
+
+- **Hero Section:** Full-width background (video or high-res image) with the headline **"Turn the Tide"** and a CTA button.
+- **Problem Section:** A **split-screen layout** (50% text / 50% image) explaining the crisis of plastic pollution.
+- **Newsletter:** A wide horizontal banner at the bottom for email signup.
+
+### 2. Marine Life Gallery (`gallery.html`)
+
+- **Layout:** A **CSS Grid** layout displaying endangered animals (Turtles, Whales, Reefs).
+- **Interactivity:**
+  - **Hover Effect:** Cards must scale up slightly (`transform: scale(1.05)`) on hover.
+  - **Reveal:** A caption or name should appear or highlight upon hovering.
+
+### 3. Campaigns (`campaigns.html`)
+
+- **Content:** Active projects (e.g., "Beach Cleanup 2026", "Ban the Straw").
+- **Layout:** Use **Flexbox** to align campaign cards in rows that wrap automatically.
+
+### 4. Get Involved (`volunteer.html`)
+
+- **Schedule Table:** An HTML `<table>` styled with CSS showing cleanup dates, locations, and open slots.
+- **Volunteer Form:**
+  - Fields: Name, Email, Diving Certification Level (Select Dropdown), Message.
+  - Style: Clean input borders with focus states.
+
+### 5. Contact (`contact.html`)
+
+- Standard contact details and a row of Social Media icons.
+
+---
+
+## 📱 Responsiveness (Mobile-First)
+
+The website must be fully responsive for all device sizes.
+
+1.  **Navigation:**
+    - Sticky header (stays at the top while scrolling).
+    - Must feature a semi-transparent background (`backdrop-filter: blur` or opacity).
+2.  **Grid Behavior:**
+    - The "Marine Life" grid must collapse to a **single-column layout** on screens smaller than 768px.
+3.  **Touch Targets:**
+    - Buttons must be large enough for easy tapping on mobile devices.
+
+---
+
+## 📦 Deliverables
+
+1.  **Source Code:** All `.html` files and the external `style.css` file.
+2.  **Assets:** An `images/` folder containing optimized assets (or placeholders).
+3.  **Documentation:** This `README.md` file included in the root directory.
+4.  **Code Quality:**
+    - Semantic HTML tags (`<nav>`, `<main>`, `<section>`, `<footer>`).
+    - Well-commented CSS (e.g., `/* --- Hero Section --- */`).
+
+
+---
+
+## 📝 Website Content & Copy
+Use the following text to populate your HTML tags for each page.
+
+### 1. Home Page (`index.html`)
+* **Hero Headline:** Turn the Tide.
+* **Hero Sub-headline:** Protecting the deep blue for future generations. Join the movement to keep our oceans plastic-free.
+* **Hero Button:** Join the Mission
+* **"The Problem" Heading:** The Silent Crisis
+* **"The Problem" Body:** Every minute, one garbage truck worth of plastic is dumped into our oceans. This pollution threatens marine ecosystems, entangles wildlife, and enters the food chain. The ocean provides 50% of the air we breathe—it is time we returned the favor.
+* **Newsletter Heading:** Dive Deeper
+* **Newsletter Text:** Get the latest conservation news and cleanup alerts sent to your inbox.
+* **Newsletter Button:** Subscribe
+
+### 2. Marine Life Gallery (`gallery.html`)
+* **Page Title:** Inhabitants of the Deep
+* **Gallery Items (Title - Caption):**
+    1.  **Green Sea Turtle** - Ancient Mariners. Endangered by plastic debris and nets.
+    2.  **Blue Whale** - The Giants. The largest animal to ever live needs our help.
+    3.  **Coral Reefs** - The Rainforests of the Sea. Dying due to rising temperatures.
+    4.  **Hammerhead Shark** - The Apex. Vital for maintaining balance in the food web.
+    5.  **Manta Ray** - Ocean Gliders. Often caught as bycatch in commercial fishing.
+    6.  **Clownfish** - Reef Dwellers. Facing habitat loss due to coral bleaching.
+
+### 3. Campaigns (`campaigns.html`)
+* **Page Title:** Current Operations
+* **Campaign 1:**
+    * *Title:* Operation Coastline 2026
+    * *Description:* A global initiative to remove 50 tons of waste from major tourist beaches before the summer season begins.
+    * *Status:* Active
+* **Campaign 2:**
+    * *Title:* Ban The Straw
+    * *Description:* Lobbying local governments to ban single-use plastics in coastal cities.
+    * *Status:* Legislation Pending
+* **Campaign 3:**
+    * *Title:* Ghost Net Recovery
+    * *Description:* A specialized diver team dedicated to cutting loose abandoned fishing nets that trap marine life.
+    * *Status:* Urgent Funding Needed
+
+### 4. Get Involved (`volunteer.html`)
+* **Page Title:** Join the Crew
+* **Intro Text:** Whether you are a certified diver or a beach walker, we need your hands on deck.
+* **Form Labels:** Full Name, Email Address, Diving Certification (None/Open Water/Advanced), Message.
+* **Schedule Data:**
+
+| Date | Location | Time | Slots Open |
+| :--- | :--- | :--- | :--- |
+| Oct 15, 2026 | Pacifica Beach, CA | 08:00 AM | 12 |
+| Oct 22, 2026 | Miami South Beach, FL | 07:30 AM | 5 |
+| Nov 05, 2026 | Gold Coast, Australia | 09:00 AM | 20 |
+| Nov 12, 2026 | Brighton Pier, UK | 10:00 AM | Full |
+
+### 5. Contact (`contact.html`)
+* **Page Title:** Contact Us
+* **Address:** 1200 Ocean Drive, Suite 44, San Diego, CA
+* **Email:** hello@oceanwatchers.org
+* **Phone:** +1 (555) 019-2834
+* **Socials:** Instagram, Twitter, Facebook
