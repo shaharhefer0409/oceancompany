@@ -1,12 +1,7 @@
-body{
-    background-color: #001f3f;
-}
+
 .feature{
     background-color: rgb(125, 179, 226);
 }
-#urgent{background-color: rgb(155, 7, 7);}
-#pending{background-color: rgb(252, 179, 44);}
-#active{background-color: rgba(15, 161, 15, 0.986);}
-#navbar{
-background-color:rgb(74, 131, 187)
-}
+.urgent-text{background-color: rgb(155, 7, 7);}
+.pending-text{background-color: rgb(252, 179, 44);}
+.active-text{background-color: rgba(15, 161, 15, 0.986);}

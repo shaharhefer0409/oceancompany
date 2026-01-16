@@ -1,4 +1,4 @@
-body{background-color: #001f3f;}
+
 .card{
 background-color: rgb(121, 200, 236);}
 .reveal-card{overflow:hidden}
@@ -26,6 +26,5 @@ background-color: rgb(121, 200, 236);}
     max-height: 100px;
     opacity: 1;
 }
-#navbar{
-background-color:rgb(74, 131, 187)
-}
+
+img{height:250px}

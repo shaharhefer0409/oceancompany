@@ -1,21 +1,17 @@
-body{ background-color:#001f3f ;}
-.btn-custom-color {background:rgb(20, 5, 61);
+
+.btn-custom-color {background:rgb(4, 60, 247);
     color:white
 }
 .btn-custom-color:hover { background:rgb(125, 163, 235);
     color:black
 }
-h1{ font-family: "Oswald", sans-serif; 
-color:#F0F8FF}
+
 .btn:hover{
-    transition: all 2s ease;
+    transition: all 0.4s ease;
     transform: scale(1.05)
 }
 p{color:#F0F8FF}
 
 form{
 background-color: #90c0e9;
-}
-#navbar{
-background-color:rgb(74, 131, 187)
 }
