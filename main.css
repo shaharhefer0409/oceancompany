@@ -1,2 +1,29 @@
-body{background-color: #001f3f;}
-#navbar{background-color: rgb(74, 131, 187)}
+:root{
+    --bg-color: #001f3f;
+    --accent-color: rgb(74, 131, 187);
+    --text-color: white;
+}
+
+:root.dark-mode{
+    --bg-color:rgb(74, 131, 187);
+    --accent-color:#001f3f;
+    --text-color: black;
+}
+
+
+body{background-color: var(--bg-color) !important;
+
+}
+#navbar{background-color: var(--accent-color) !important}
+
+
+.dark-mode {
+    color: black;
+
+}
+
+.dark-mode .border{
+    border-color: black !important;
+}
+
+
