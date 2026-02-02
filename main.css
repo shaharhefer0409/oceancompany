@@ -1,12 +1,12 @@
 :root{
-    --bg-color: #001f3f;
-    --accent-color: rgb(74, 131, 187);
-    --text-color: white;
+    --bg-color: #4a99e7;
+    --accent-color: rgb(10, 46, 82);
+    --text-color: rgb(0, 0, 0);
 }
 
 :root.dark-mode{
-    --bg-color:rgb(74, 131, 187);
-    --accent-color:#001f3f;
+    --bg-color:rgb(10, 46, 82);
+    --accent-color:#4a99e7;
     --text-color: black;
 }
 
@@ -18,12 +18,46 @@ body{background-color: var(--bg-color) !important;
 
 
 .dark-mode {
-    color: black;
+    color: rgb(255, 255, 255);
 
 }
 
 .dark-mode .border{
     border-color: black !important;
 }
+p{
+    color:black
+}
+.dark-mode p{
+    color:white !important
+}
+.dark-mode h1{
+    color:white
+}
+.dark-mode .campaign-text{
+    color:black !important
+}
+.dark-mode h2{
+    color:white !important
+}
+h2{
 
-
+}
+.border-bottom{
+    border-color: black !important;
+}
+.dark-mode .border-bottom{
+    border-color: white !important;
+}
+.dark-mode .form-label{
+    color:white
+}
+.dark-mode h4{
+    color:white
+}
+.dark-mode svg{
+    color:rgb(255, 255, 255)
+}
+svg{
+    color:rgb(5, 0, 0)
+}
