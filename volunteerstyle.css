@@ -1,5 +1,12 @@
 
-.table-blue {
-  --bs-table-bg: #88b2e9; /* Light pink background */
-  --bs-table-color: #000000;  /* Text color */
+.dark-mode .table-blue {
+  --bs-table-bg:  #2a80d6;
+  --bs-table-color: #000000;  
+  border-color: rgb(10, 46, 82);
+}
+.table-blue{
+   --bs-table-bg: rgb(26, 90, 153);
+  --bs-table-color: #ffffff;  
+  border-color:#4a99e7
+  
 }

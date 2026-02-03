@@ -1,63 +1,49 @@
-:root{
-    --bg-color: #4a99e7;
-    --accent-color: rgb(10, 46, 82);
-    --text-color: rgb(0, 0, 0);
+:root {
+
+  --bg-color: #67a3e0;
+  --accent-color: rgb(8, 52, 97);
+  --text-primary: rgb(0, 0, 0);
+  --text-secondary: white; 
+  --border-color: black;
 }
 
-:root.dark-mode{
-    --bg-color:rgb(10, 46, 82);
-    --accent-color:#4a99e7;
-    --text-color: black;
+:root.dark-mode {
+
+  --bg-color: rgb(3, 27, 51);
+  --accent-color: #2a80d6;
+  --text-primary: rgb(255, 255, 255); 
+  --text-secondary: rgb(0, 0, 0);
+  --border-color: white;
 }
 
 
-body{background-color: var(--bg-color) !important;
-
-}
-#navbar{background-color: var(--accent-color) !important}
-
-
-.dark-mode {
-    color: rgb(255, 255, 255);
-
+body {
+  background-color: var(--bg-color);
+  color: var(--text-primary); 
 }
 
-.dark-mode .border{
-    border-color: black !important;
+
+#navbar {
+  background-color: var(--accent-color);
 }
-p{
-    color:black
+
+
+.border-bottom {
+  border-color: var(--border-color) !important;
 }
-.dark-mode p{
-    color:white !important
+
+
+svg {
+  color: currentColor;
 }
-.dark-mode h1{
-    color:white
+.campaign-container {
+  background-color: var(--accent-color);
+  color: var(--text-secondary);
 }
-.dark-mode .campaign-text{
-    color:black !important
-}
-.dark-mode h2{
-    color:white !important
-}
-h2{
+form{
+    background-color: var(--accent-color);
+    color: var(--text-secondary);
+    border-color: black;
 
 }
-.border-bottom{
-    border-color: black !important;
-}
-.dark-mode .border-bottom{
-    border-color: white !important;
-}
-.dark-mode .form-label{
-    color:white
-}
-.dark-mode h4{
-    color:white
-}
-.dark-mode svg{
-    color:rgb(255, 255, 255)
-}
-svg{
-    color:rgb(5, 0, 0)
-}
+
