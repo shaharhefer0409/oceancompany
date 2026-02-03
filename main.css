@@ -46,4 +46,6 @@ form{
     border-color: black;
 
 }
-
+.social-media-link {
+  color: var(--text-primary);
+}
